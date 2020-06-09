@@ -74,3 +74,30 @@ h2 + figure + p{
 :not(p) + p::first-line{
     font-variant:small-caps;
 }
+
+/*mobile version*/
+@media (max-width: 939px){
+    body{
+        width:100%;
+    }
+    
+    #centro-distribuicao{
+        width:100%;
+        margin-left:0;
+        margin-right: 0;
+        padding: 2vh 0 0 0;
+    }
+
+
+    figcaption{
+        margin-top: 1%;
+    }
+
+    #centro-distribuicao img{
+        width:85%;
+    }
+
+    h2{
+        text-indent: 2vw;
+    }
+}
