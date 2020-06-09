@@ -1,0 +1,23 @@
+.caixa{
+    width: 250px;
+    height: 250px;
+}
+
+.primeiro{
+    background-color: #00ff00;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.segundo{
+    background-color: #0000ff;   
+    margin: 0 auto;
+}
+
+.nome{
+    padding-left:15px;
+    position:absolute;
+    top:30px;
+}
